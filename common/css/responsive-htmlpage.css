@@ -264,8 +264,8 @@
 	.model_box{ width:730px;}
 }
 
-.mobilemenu, header a.mobilemenu { display: block; height: 22px; position: absolute; left: 17px; top: 20px; width: 26px; background: url(http://www.foodandwine.com/microsites/restaurants-of-the-year/common/images/menu_btn.png) no-repeat; background-size: 26px; }
-.closemenu, header a.closemenu { display: block; height: 24px; position: absolute; left: 21px; top: 18px; width: 24px; background:url(http://www.foodandwine.com/microsites/restaurants-of-the-year/common/images/menu_close.png) no-repeat; background-size: 24px; }
+.mobilemenu, header a.mobilemenu { display: block; height: 22px; position: absolute; left: 17px; top: 20px; width: 26px; background: url(https://www.foodandwine.com/microsites/bnc/2018/common/images/menu_btn.png) no-repeat; background-size: 26px; }
+.closemenu, header a.closemenu { display: block; height: 24px; position: absolute; left: 21px; top: 18px; width: 24px; background:url(https://www.foodandwine.com/microsites/bnc/2018/common/images/menu_close.png) no-repeat; background-size: 24px; }
 
 .menu-bar { position: fixed;  transition: all 0.3s; -webkit-transition: all 0.3s; height: 100%; overflow: auto; top: 0px;  z-index: 9999991; background: #000; padding: 20px 0px 0;-webkit-overflow-scrolling: touch; left: -100%; }
 .menu_open .menu-bar { left: 0px; }
@@ -288,7 +288,7 @@
 .menu-bar .navigation ul.menu li a, body.fixed .menu-bar .navigation ul.menu li a { padding: 5px 10px 5px 35px; line-height: 30px; display: block; border-bottom: 1px solid rgba(255,255,255,0.2); letter-spacing: 0.1em; font-size: 16px; font-weight: 700; color: #fff; text-transform: uppercase; display: block; position: relative; }
 .menu-bar .navigation ul.menu li a span { display: block; line-height: 30px; }
 .menu-bar .navigation ul.menu li a img.desktop-icon { display:none; }
-.menu-bar .navigation ul.menu li a:hover, .menu-bar .navigation ul.menu li.active a { background: #9E3948; border-color: #9E3948; }
+.menu-bar .navigation ul.menu li a:hover, .menu-bar .navigation ul.menu li.active a { background: #AD2049; border-color: #AD2049; }
 .menu-bar .navigation ul.menu li.coming-soon a:hover { background: none; border-color: rgba(255,255,255,0.2); }
 .menu-bar .navigation ul.menu li.coming-soon a:hover { }
 .menu-bar .navigation ul.menu li.coming-soon a:hover span { font-weight: 400; }
