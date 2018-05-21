@@ -320,10 +320,13 @@ header ul.social_icon li:first-child{ margin-left:0; }
 header ul.social_icon li a{ display:block; width:31px; height:31px; border-radius:50%; border:2px solid #fff; opacity:1; transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -moz-transition: all 0.5s ease;}
 header ul.social_icon li a i{ font-size:14px; line-height:28px; color:#fff; }
 header ul.social_icon li a:hover{opacity:0.7;}
-header .right-logo { width: 170px; position: absolute; right: 0; top: 15px; margin-right: 24px; }
+header .right-logo { width: 175px; position: absolute; right: 0; top: 15px; margin-right: 24px; }
 header .right-logo:after { content: ''; border-right: 0px solid rgba(255, 255, 255, 0.3); display:block; position: absolute; right: 0px; top: 15px; height: 30px; }
-header .right-logo span { font-size: 11px; padding: 2px 2px 4px; display: block; color: #b3b3b3; text-transform: uppercase; display:none}
-
+header .right-logo span { font-size: 11px; padding: 10px 10px 0px 0px; color: #ffffff; text-transform: uppercase; font-family: 'Open Sans', sans-serif; float: left; }
+header .right-logo img { float: right; }
+@media only screen and (max-width: 1023px) {
+	header .right-logo { display: none; }
+}
 
 
 /********************************************Intro Section Css******************************************************************/
